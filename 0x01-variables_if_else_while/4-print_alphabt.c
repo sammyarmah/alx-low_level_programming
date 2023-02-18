@@ -1,23 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main -Enry point
- * Return: Always 0 (success)
+ * main - entry point
+ * Description: get a random number
+ * Return: 0
  */
-
 int main(void)
 {
-	char c;
+	char c = 'a';
 
-	c = 'a';
-	while 
-		(c <= 'z') {
-			if ((c != 'q' && c != 'e') && c <= 'z')
-				putchar(c);
-			c++;
+	while (c <= 'z')
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
 		}
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }
