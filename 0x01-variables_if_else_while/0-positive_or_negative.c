@@ -6,8 +6,8 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - Prints if when number is positive, negative or zero
- * Retun: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (success)
  *
  */
 
