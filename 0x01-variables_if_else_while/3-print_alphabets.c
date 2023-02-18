@@ -1,25 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main- Entry point
- *
- * Return:Always0(success)
+ * main - Entry point
+ * Description: prints alphabet in a new line
+ * Return: 0
  */
 int main(void)
 {
-	char c;
-	char d;
-	c='a';
-	d='A';
-	while(c <='z')
+	char c = 'a';
+
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-	while(d <='Z')
+
+	c = 'A';
+
+	while (c <= 'Z')
 	{
-		putchar(d);
-		d++;
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
-	return(0);
+	return (0);
 }
