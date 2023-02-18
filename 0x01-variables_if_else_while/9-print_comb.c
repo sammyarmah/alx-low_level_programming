@@ -1,23 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - entry point
+ * Description: prints all single numbers
+ * Return: 0
  */
-
 int main(void)
 {
-	int a;
+	int c = 0;
 
-	for (a=0; a<10; a++)
+	while  (c < 10)
 	{
-		putchar(a+'0');
-		if (a<9)
+		putchar(48 + c);
+		if (c != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
