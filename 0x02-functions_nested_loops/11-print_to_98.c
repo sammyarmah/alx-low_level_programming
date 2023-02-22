@@ -5,7 +5,7 @@
  * @n: The number to start printing from
  * Return: Always 0
  */
-void _print_to_98(void)
+void print_to_98(void)
 {
 	if (n <= 98)
 	{
@@ -14,7 +14,7 @@ void _print_to_98(void)
 	if (n == 98)
 	{
 	printf("%d", n);
-	printf('\n');
+	printf("\n");
 	break;
 	}
 	else
@@ -30,7 +30,7 @@ void _print_to_98(void)
 	if (n == 98)
 	{
 	printf("%d", n);
-	printf('\n');
+	printf("\n");
 	break;
 	}
 	else
