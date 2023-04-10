@@ -1,6 +1,3 @@
-2-GET_BIT.C
-
-
 #include "main.h"
 
 /**
