@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - function that copies n bytes of a src string to a
- * dest string,
- * @dest: destination string
- * @src: source string
- * @n: number of bytes from src string
- * Return: a pointer to the resulting string dest.
+ *_strncpy - Copy src string to dest string
+ *@dest: destination string
+ *@src: source string
+ *@n: int
+ *Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -16,9 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
-	for ( ; i < n; i++)
-	{
+	for (; i < n; i++)
 		dest[i] = '\0';
-	}
 	return (dest);
 }
